@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Kavya's personal portfolio and web development projects">
+
+    <title>Kavya | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Kavya<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>Hi, I'm <span>Kavya</span></h1>
+
+                    <h2>Aspiring Web Developer</h2>
+
+                    <p>
+                        I'm a B.Sc Information Technology student
+                        interested in web development and programming.
+                        I enjoy building websites and learning new
+                        technologies.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">
+                            View My Projects
+                        </a>
+
+                        <a href="#contact" class="btn outline-btn">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <a class="github-text"
+                       href="https://github.com/kavyasathishkumar05-spec"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Visit My GitHub →
+                    </a>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-circle">K</div>
+
+                    <h2>Kavya</h2>
+
+                    <p>B.Sc Information Technology</p>
+
+                    <span>Student | Aspiring Developer</span>
+
+                    <a href="https://github.com/kavyasathishkumar05-spec"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn primary-btn">
+                        My GitHub
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section" id="about">
+            <div class="container">
+
+                <h2 class="section-title">
+                    About <span>Me</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Get to know me
+                </p>
+
+                <div class="about-card">
+                    <p>
+                        Hello! I'm Kavya, a B.Sc Information Technology
+                        student passionate about programming and
+                        website development.
+                    </p>
+
+                    <p>
+                        I am developing my skills by creating projects
+                        using HTML, CSS, JavaScript and other
+                        programming languages.
+                    </p>
+
+                    <div class="details">
+                        <p><strong>Name:</strong> Kavya</p>
+
+                        <p>
+                            <strong>Course:</strong>
+                            B.Sc Information Technology
+                        </p>
+
+                        <p>
+                            <strong>Career Goal:</strong>
+                            Full Stack Developer
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:kavyasathishkumar05@gmail.com">
+                                kavyasathishkumar05@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <h2 class="section-title">
+                    My <span>Skills</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Technologies I'm learning
+                </p>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <p>Website structure</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Styling and responsive design</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive websites</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🐍</div>
+                        <h3>Python</h3>
+                        <p>Programming fundamentals</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">☕</div>
+                        <h3>Java</h3>
+                        <p>Object-oriented programming</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>GitHub</h3>
+                        <p>Project hosting and version control</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section" id="projects">
+            <div class="container">
+
+                <h2 class="section-title">
+                    My <span>Projects</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Projects I've worked on
+                </p>
+
+                <div class="projects-grid">
+
+                    <!-- PROJECT 1: BMI CALCULATOR -->
+                    <article class="project-card">
+
+                        <div class="project-banner bmi-banner">
+                            BMI
+                        </div>
+
+                        <div class="project-info">
+
+                            <span class="tag">
+                                HTML · CSS · JavaScript
+                            </span>
+
+                            <h3>BMI Calculator</h3>
+
+                            <p>
+                                A BMI calculator that estimates Body
+                                Mass Index based on a user's height
+                                and weight.
+                            </p>
+
+                            <!-- Change this URL if your BMI project
+                                 has a different GitHub repository -->
+                            <a href="https://github.com/kavyasathishkumar05-spec"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: VEHICLE RENTAL BOOKING -->
+                    <article class="project-card">
+
+                        <div class="project-banner vehicle-banner">
+                            VEHICLE RENTAL
+                        </div>
+
+                        <div class="project-info">
+
+                            <span class="tag">
+                                JavaScript
+                            </span>
+
+                            <h3>Vehicle Rental Booking</h3>
+
+                            <p>
+                                A vehicle rental booking project
+                                designed to help users explore
+                                vehicles and manage rental bookings.
+                            </p>
+
+                            <a href="https://github.com/kavyasathishkumar05-spec/Vehicle-rental-booking"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3: PORTFOLIO1 -->
+                    <article class="project-card">
+
+                        <div class="project-banner portfolio-banner">
+                            PORTFOLIO
+                        </div>
+
+                        <div class="project-info">
+
+                            <span class="tag">
+                                Web Development
+                            </span>
+
+                            <h3>Portfolio1</h3>
+
+                            <p>
+                                A personal portfolio repository
+                                showcasing website development
+                                work and project information.
+                            </p>
+
+                            <a href="https://github.com/kavyasathishkumar05-spec/portfolio1"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="project-note">
+                    Explore my GitHub profile to view my repositories
+                    and other projects.
+                </p>
+
+                <div class="github-button-container">
+                    <a href="https://github.com/kavyasathishkumar05-spec"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn primary-btn">
+                        Explore All Projects on GitHub →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <h2 class="section-title">
+                    Contact <span>Me</span>
+                </h2>
+
+                <p class="section-subtitle">
+                    Let's connect
+                </p>
+
+                <div class="contact-card">
+
+                    <p>
+                        Want to know more about my projects?
+                        Feel free to contact me or visit my GitHub profile.
+                    </p>
+
+                    <a class="email-link"
+                       href="mailto:kavyasathishkumar05@gmail.com">
+                        ✉️ kavyasathishkumar05@gmail.com
+                    </a>
+
+                    <div class="contact-buttons">
+
+                        <a href="mailto:kavyasathishkumar05@gmail.com"
+                           class="btn primary-btn">
+                            Send Email
+                        </a>
+
+                        <a href="https://github.com/kavyasathishkumar05-spec"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn outline-btn">
+                            Visit GitHub
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <p>
+                © <span id="year"></span> Kavya.
+                All rights reserved.
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://github.com/kavyasathishkumar05-spec"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="mailto:kavyasathishkumar05@gmail.com">
+                    Email
+                </a>
+
+            </div>
+
+            <a href="#home">Back to Home ↑</a>
+
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top"
+            id="backToTop"
+            aria-label="Back to top"
+            title="Back to top">
+        ↑
+    </button>
+
+</body>
+</html
